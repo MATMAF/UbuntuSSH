@@ -1,0 +1,9 @@
+services:
+  DockerUbuntuSSH:
+    image: mathieumafille/ubuntussh:latest
+    restart: always
+    ports:
+      - 222:22
+      - 8080:80
+      - 4443:443
+      - 5000:5000
