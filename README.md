@@ -1,5 +1,5 @@
 # DockerUbuntuSSH
-Use a docker container like a VPS
+Use Ubuntu container like a VPS
 # Install
 Edit `docker-compose.yml` and changed the ports
 ```
