@@ -1,6 +1,6 @@
 services:
   DockerUbuntuSSH:
-    image: mathieumafille/ubuntussh:latest
+    image: ghcr.io/matmaf/ubuntussh:main
     restart: always
     ports:
       - 222:22
